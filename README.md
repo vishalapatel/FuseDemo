@@ -49,7 +49,7 @@ Jolokia: Agent started with URL http://127.0.0.1:8778/jolokia/
 2.  Once started you can monitor messages as they flow through your integration project. Use the hawtio console to connect 
 to the jolokia agent deployed with your JVM (port 8778).
 
-1.  Go to localhost:8161/hawtio/login
+1.  Go to http://localhost:8161/hawtio/login
 2.  "Connect" -> use localhost and port 8778
 3.  Once connected you should see a "Camel" tab appear with the Camel routes created in the project.
 
